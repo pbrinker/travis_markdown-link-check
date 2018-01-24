@@ -1,0 +1,6 @@
+install:
+  - sudo apt-get install npm
+  - sudo npm install -g markdown-link-check
+
+script: 
+  - find . -name \*.md -exec markdown-link-check {} \; 2>/dev/null | egrep "[✖]"
