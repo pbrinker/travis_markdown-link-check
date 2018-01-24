@@ -3,4 +3,4 @@ install:
   - sudo npm install -g markdown-link-check
 
 script: 
-  - find . -name \*.md -exec markdown-link-check {} \; 2>/dev/null | egrep "[✖]"
+  - ./check_dead_links
