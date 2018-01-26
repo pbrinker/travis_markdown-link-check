@@ -10,8 +10,9 @@ If a link is dead, the build of this repository will fail.
 
 This GitHub is part of:
 
- * [the Travis Tutorial](https://github.com/pbrinker/travis_tutorial)
+ * [the Travis Tutorial](https://github.com/richelbilderbeek/travis_tutorial)
 
 ## External links
 
  * [markdown-link-check repository](https://github.com/tcort/markdown-link-check)
+
